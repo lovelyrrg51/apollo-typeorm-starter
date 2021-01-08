@@ -1,0 +1,8 @@
+node_modules
+assets
+dist
+.awcache
+schema.gql
+*.log
+**/.cache
+server/logs

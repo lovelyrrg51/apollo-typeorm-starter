@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.json",
+  "include": [
+    "../common/**/*"
+  ],
+  "compilerOptions": {
+    "outDir": "../dist/assets",
+    "moduleResolution": "node",
+    "removeComments": false,
+    "jsx": "react",
+    "module": "esnext"
+  }
+}

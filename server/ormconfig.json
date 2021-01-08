@@ -1,0 +1,27 @@
+[{
+   "type": "mysql",
+   "host": "localhost",
+   "port": 3306,
+   "username": "dev",
+   "password": "6AsHX9u&$@9YX3jq",
+   "database": "dev",
+   "synchronize": false,
+   "logging": false,
+   "extra": {
+      "insecureAuth": true
+   },
+   "entities": [
+      "./entities/**/*.entity.ts"
+   ],
+   "migrations": [
+      "./migrations/**/*.ts"
+   ],
+   "subscribers": [
+      "./subscribers/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "./entities",
+      "migrationsDir": "./migrations",
+      "subscribersDir": "./subscribers"
+   }
+}]
